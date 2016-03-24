@@ -1,0 +1,19 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+
+alias ls='ls -F -h --color=auto'
+alias la='ls -a'
+alias lla='ll -a'
+
+alias tips='printf "\n----------\ncpu:\tmpstat\nmem:\tvmstat\t\nhd:\tiostat\n\n\"echo\"   only replace var\n\"printf\" do the format\n\n top, pstree, du -sh, df -h, type [cmd]\n\nservice:\nsamba\nnetwork\n= = = = = =\n\n"'
+
+alias type='type -a'

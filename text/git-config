@@ -1,0 +1,11 @@
+# Color
+
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global color.ui auto
+
+# Identity
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
